@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+  
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("h1").mouseenter(function(){
+                    $(this).css('border', '3px solid red');
+                });
+            });
+        </script>
+        <style>
+            h1{
+                text-align: center;
+                color:blue;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 >snehal kodale</h1>
+    </body>
+</html>
